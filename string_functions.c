@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
  * str_compare- function to compare two strings
  * @str1: string
  * @str2: string
  * Return: 0 if equale
 */
+
 int str_compare(char *str1, char *str2)
 {
 	for ( ; *str1 && *str2; str1++, str2++)
