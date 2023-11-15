@@ -8,6 +8,7 @@
 
 char *path_searching(char *command)
 {
+
 	char *path = get_env("PATH"), *copied_path;
 	char **path_token;
 	char *path_append = NULL;
