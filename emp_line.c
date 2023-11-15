@@ -8,6 +8,7 @@
 
 int _emptyLine(char *buffer)
 {
+
 	int count = 0;
 
 	while (buffer[count] != '\0')
