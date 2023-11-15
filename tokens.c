@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * **_tokens - split string
  * @s: string to tokenize it
@@ -8,6 +9,7 @@
 
 char **_tokens(char *s, char *del)
 {
+
 	char *token, **ptr;
 	int count = 0;
 
