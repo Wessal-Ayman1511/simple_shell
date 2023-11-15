@@ -26,5 +26,6 @@ char *get_env(char *var)
 		c1++;
 	}
 
+
 	return (&environ[c1][c2 + 1]);
 }
