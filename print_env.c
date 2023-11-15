@@ -2,6 +2,7 @@
 /**
  * print_env- function print enviroment variables
 */
+
 void print_env(void)
 {
 	int c = 0;
