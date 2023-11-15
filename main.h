@@ -10,6 +10,7 @@
 #include <sys/stat.h>
 extern char **environ;
 
+
 int str_compare(char *str1, char *str2);
 char *str_copy(char *destination, char *source);
 char *str_concat(char *destination, char *source);
